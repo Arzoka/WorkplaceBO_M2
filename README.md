@@ -15,3 +15,5 @@ Changelogs:
 11/22/2022:
 - Created a Trello board (See Trello section)
 - Discussed agreements with Pluto
+- Discussed agreements with nuggie
+- Agreements completed, and accepted by everyone!
