@@ -1,6 +1,10 @@
 # WorkplaceBO_M2
 Workplace for museum online BO assignment Period 2.
 
+Trello:
+
+https://trello.com/b/aFYQ9Ary/bo-website-m2
+
 Changelogs:
 
 11/21/2022:
