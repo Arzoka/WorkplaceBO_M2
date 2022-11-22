@@ -11,3 +11,7 @@ Changelogs:
 - Made GitHub Repository
 - Created README.md, index.html, Styles.css, main.js, Agreements.docx
 - Made clear agreements
+
+11/22/2022:
+- Created a Trello board (See Trello section)
+- Discussed agreements with Pluto
