@@ -16,4 +16,8 @@ Changelogs:
 - Created a Trello board (See Trello section)
 - Discussed agreements with Pluto
 - Discussed agreements with nuggie
+<<<<<<< HEAD
 - Agreements completed, and accepted by everyone!
+=======
+- Agreements completed, and accepted by everyone!
+>>>>>>> 050e95f020c4e7a9f95fcc2c19f57a07390a574f
