@@ -1,9 +1,7 @@
-# WorkplaceBO_M2
-Workplace for museum online BO assignment Period 2.
+# Overview
+Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 
-# Trello:
-
-https://trello.com/b/aFYQ9Ary/bo-website-m2
+Trello: https://trello.com/b/aFYQ9Ary/bo-website-m2
 
 # Changelogs:
 
@@ -14,7 +12,7 @@ https://trello.com/b/aFYQ9Ary/bo-website-m2
 - Made clear agreements
 
 11/22/2022:
-- Created a Trello board (See Trello section)
+- Created a Trello board (See "Overview" section)
 - Discussed agreements with Pluto
 - Discussed agreements with nuggie
 - Agreements completed, and accepted by everyone!
