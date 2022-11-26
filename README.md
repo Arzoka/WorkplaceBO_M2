@@ -17,3 +17,6 @@ Changelogs:
 - Discussed agreements with Pluto
 - Discussed agreements with nuggie
 - Agreements completed, and accepted by everyone!
+
+26/11/2022:
+-changed agreements to TAC (terms and conditions) 
