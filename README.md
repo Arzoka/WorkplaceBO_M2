@@ -25,3 +25,12 @@ Trello: https://trello.com/b/aFYQ9Ary/bo-website-m2
 - Renamed Agreements.docx to TAC.docx (terms and conditions) 
 
 # Week 2
+11/28/2022:
+- Came up with an idea for basic layout and how we want the game on the website to look and work.
+- Published game.odt
+- Discussed further plans
+
+11/29/2022:
+- Noticed .odt file, changed to .docx
+- Renamed game.odt to Game Design BO Museum Online
+- Updated Trello
