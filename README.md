@@ -34,3 +34,5 @@ Trello: https://trello.com/b/aFYQ9Ary/bo-website-m2
 - Noticed .odt file, changed to .docx
 - Renamed game.odt to Game Design BO Museum Online
 - Updated Trello
+
+# Week 3
