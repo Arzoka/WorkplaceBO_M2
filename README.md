@@ -36,3 +36,7 @@ Trello: https://trello.com/b/aFYQ9Ary/bo-website-m2
 - Updated Trello
 
 # Week 3
+12/05/2022:
+- Updated Trello
+- Continued game design
+- Completed sketches
