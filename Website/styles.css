@@ -15,6 +15,29 @@ body {
   align-items: center;
 }
 
+.slide-images{
+  position: absolute;
+  top: 20vh;
+  width: 40%;
+  height: 50vh;
+  background: rgb(210, 210, 210);
+}
+
+.about-museum{
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 100vh;
+}
+
+.tetris-menu{
+  position: absolute;
+  top: 110vh;
+  width: 40%;
+  height: 90vh;
+  background: #000000;
+}
+
 .bar {
   position: relative;
   width: 100%;
@@ -97,10 +120,8 @@ body {
   font-weight: 400;
 }
 
-.slide-images{
-  position: absolute;
-  top: 20vh;
-  width: 40%;
-  height: 50vh;
-  background: rgb(210, 210, 210);
+.OtherText{
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-weight: 400;
 }
