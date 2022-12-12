@@ -8,10 +8,17 @@ body {
   background: #FFFFFF
 }
 
+.background{
+  position: relative;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
 .bar {
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 75px;
   background: black;
   display:flex;
   justify-content:center;
@@ -19,17 +26,22 @@ body {
   
 }
 
-.museum-icon{
+.iconlink{
   position: absolute;
-  right: 0;
+  left: -50px;
   width: 15%;
   height: 65%;
+}
+
+.museum-icon{
   object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
 
 .slide-button{
   position: absolute;
-  left:0;
+  right:0;
   width: 5%;
   height: 40%;
   object-fit: contain;
@@ -41,8 +53,8 @@ body {
   justify-content:center;
   align-items: center;
   position:relative;
-  width: 7.5%;
-  height: 20%;
+  width: 12.5%;
+  height: 30%;
   background: white;
   border-radius: 25px;
   transition: width 0.5s;
@@ -57,7 +69,7 @@ body {
 }
 
 .search-bar:hover{
-  width: 15%;
+  width: 20%;
   transition: width 0.5s;
 }
 
@@ -65,8 +77,6 @@ body {
   opacity: 0;
   transition: opacity 0.5s;
 }
-
-
 
 .search-icon{
   opacity: 100;
@@ -77,14 +87,16 @@ body {
   height: 80%;
 }
 
-.slide-button:active {
-
-  transform: rotate(90deg);
-
-}
-
 .BarText{
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
   font-weight: 400;
+}
+
+.slide-images{
+  position: absolute;
+  top: 20vh;
+  width: 40%;
+  height: 50vh;
+  background: rgb(210, 210, 210);
 }
