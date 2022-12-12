@@ -20,6 +20,10 @@ body {
   width: 100%;
   height: 75px;
   background: black;
+  background-image: url("https://cdn.discordapp.com/attachments/754440404891336816/1051946566065332284/trianglify-lowres.png");
+  object-fit:fill;
+  background-size: cover;
+  background-repeat: no-repeat;
   display:flex;
   justify-content:center;
   align-items: center;
