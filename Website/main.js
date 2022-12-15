@@ -6,6 +6,10 @@ window.onload = function() { //only starts when the screen loaded
     document.body.style.background = "#333333";
     document.getElementById("p-notice").style.opacity = 1;
   }
+  else{
+    var notice = document.getElementById('p-notice')
+    notice.parentNode.removeChild(notice)
+  }
 
   //Variables
   var prevScrollpos = window.pageYOffset;
