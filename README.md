@@ -2,6 +2,7 @@
 Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 
 Trello: https://trello.com/b/aFYQ9Ary/bo-website-m2
+Website: https://35233.hosts2.ma-cloud.nl/WorkplaceBO_M2/Website/index.html (No mobile support, Updated daily, not every commit)
 
 # Changelogs:
 
@@ -55,3 +56,4 @@ Trello: https://trello.com/b/aFYQ9Ary/bo-website-m2
 12/15/2022:
 - Discussed work on website
 - Continued work on website, fixed zooming-issues and cross-browser accesibility
+- Published Website to (See "Overview" section)
