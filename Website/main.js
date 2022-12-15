@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function() { //only starts when the screen loaded
   var prevScrollpos = window.pageYOffset;
   var slide_button = document.getElementById("slide-button");
   var visible = false;

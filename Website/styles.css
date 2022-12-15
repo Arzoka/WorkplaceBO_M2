@@ -5,12 +5,12 @@ html, body {
 }
   
 body {
-  background: #FFFFFF;
+  background: #FFFFFF; 
 }
 
 body::-webkit-scrollbar{
   display: none;
-}
+} /*makes the scrollbar dissapear*/
 
 .background{
   position: relative;
@@ -43,7 +43,7 @@ body::-webkit-scrollbar{
   width:25%;
   top:-100%;
   right:0;
-  transition: top 0.5s;
+  transition: top 0.5s; /*gives it a slight animation*/
   background:#333333;
 }
 
@@ -77,7 +77,7 @@ body::-webkit-scrollbar{
 }
 
 .slide-button{
-  cursor: pointer;
+  cursor: pointer; /*makes it so we force the curser to point*/
   position: absolute;
   filter: drop-shadow(0px -3px 5px #000000) drop-shadow(0px 3px 5px #000000);
   rotate: 0deg;
