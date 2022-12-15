@@ -1,5 +1,12 @@
 window.onload = function() { //only starts when the screen loaded
 
+  const isMobile = navigator.userAgentData.mobile; //resolves true/false
+  if (isMobile == true) {
+    console.log('mobile')
+    document.body.style.background = "#333333";
+    document.getElementById("p-notice").style.opacity = 0;
+  }
+
   //Variables
   var prevScrollpos = window.pageYOffset;
   var slide_button = document.getElementById("slide-button");
