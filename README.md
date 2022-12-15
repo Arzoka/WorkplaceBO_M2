@@ -40,3 +40,18 @@ Trello: https://trello.com/b/aFYQ9Ary/bo-website-m2
 - Updated Trello
 - Continued game design
 - Completed sketches
+
+# Week 4
+12/12/2022:
+- Started work on website
+- Updated Trello
+
+12/13/2022:
+- Continued work on website, added animations
+
+12/14/2022:
+- Continued work on website, added lighting animations
+
+12/15/2022:
+- Discussed work on website
+- Continued work on website, fixed zooming-issues and cross-browser accesibility
