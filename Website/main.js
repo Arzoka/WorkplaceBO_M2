@@ -2,9 +2,9 @@ window.onload = function() { //only starts when the screen loaded
 
   const isMobile = navigator.userAgentData.mobile; //resolves true/false
   if (isMobile == true) {
-    console.log('mobile')
+    console.log('mobile');
     document.body.style.background = "#333333";
-    document.getElementById("p-notice").style.opacity = 0;
+    document.getElementById("p-notice").style.opacity = 1;
   }
 
   //Variables
