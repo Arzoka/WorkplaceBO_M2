@@ -18,9 +18,26 @@
 </head>
 <body>
     <div class="background">
-        <div class="slide-image-border">
-            <img class="slide-image" id="slide-image" src="Resources/Museum_Image3.jpeg">
-        </div> <!-- is 'nothing' until you style it in css-->
+        <div class="container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="Resources/Museum_Image1.jpeg"></div>
+                  <div class="swiper-slide"><img src="Resources/Museum_Image2.jpg"></div>
+                  <div class="swiper-slide"><img src="Resources/Museum_Image3.jpeg"></div>
+                
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                
+              </div>
+        </div>
         <h2 class="about-museum OtherText">Scroll-Test</h2>
     </div>
     
@@ -52,27 +69,7 @@
     <div class="p-notice" id="p-notice">
         <h2 class="p-title" id="p-title">This website is not yet accesible for mobile devices, we're sorry for the inconvenience!</h2>
     </div>
-    <div class="container">
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide"><img src="Resources/Museum_Image1.jpeg"></div>
-              <div class="swiper-slide"><img src="Resources/Museum_Image2.jpg"></div>
-              <div class="swiper-slide"><img src="Resources/Museum_Image3.jpeg"></div>
-              <div class="swiper-slide"><img src="Resources/Museum_Image4.jpeg"></div>
-            
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-          
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          
-            
-          </div>
-    </div>
+    
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 <script>

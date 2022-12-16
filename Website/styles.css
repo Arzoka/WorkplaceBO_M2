@@ -168,13 +168,14 @@ body::-webkit-scrollbar{
   font-weight: 400px;
 }
 
-.conainer{
-  width: 100%;
-  height: 100vh;
-  background: #222;
+.container{
+  position: absolute;
+  justify-content: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  top: 12.5vh;
+  width: 55%;
+  height: 75vh;
 }
 
 .swiper{
