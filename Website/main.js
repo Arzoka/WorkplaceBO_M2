@@ -1,5 +1,27 @@
 window.onload = function() { //only starts when the screen loaded
-
+  var c = 0
+  const SlideShowImage = document.getElementById('slide-image');
+  function ChangeImage() {
+    console.log(c)
+    if (c == 0) {
+      SlideShowImage.src = "Resources/Museum_Image1.jpeg";
+      c = 1
+    }
+    else if (c == 1) {
+      SlideShowImage.src = "Resources/Museum_Image2.jpg";
+      c = 2
+    }
+    else if (c == 2) {
+      SlideShowImage.src = "Resources/Museum_Image3.jpeg";
+      c = 3
+    }
+    else if (c == 3) {
+      SlideShowImage.src = "Resources/Museum_Image4.jpeg";
+      c = 0
+    }
+    
+  }
+  
   const isMobile = navigator.userAgentData.mobile; //resolves true/false
   if (isMobile == true) {
     console.log('mobile');
@@ -87,4 +109,6 @@ window.onload = function() { //only starts when the screen loaded
   }
 
   setInterval(checkInputFocus, 5); //Do this function every 5 miliseconds
+  setInterval(ChangeImage, 5000);
+  
 };
