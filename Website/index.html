@@ -13,6 +13,7 @@
     <link rel="icon" 
     href="Resources/icon.png"
     type="image/x icon"> <!--makes the icon for the top bar of the website-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
 </head>
 <body>
@@ -51,6 +52,52 @@
     <div class="p-notice" id="p-notice">
         <h2 class="p-title" id="p-title">This website is not yet accesible for mobile devices, we're sorry for the inconvenience!</h2>
     </div>
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="Resources/Museum_Image1.jpeg"></div>
+              <div class="swiper-slide"><img src="Resources/Museum_Image2.jpg"></div>
+              <div class="swiper-slide"><img src="Resources/Museum_Image3.jpeg"></div>
+              <div class="swiper-slide"><img src="Resources/Museum_Image4.jpeg"></div>
+            
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            
+          </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+
+
 </body>
 
 </html>
