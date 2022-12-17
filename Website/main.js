@@ -1,20 +1,29 @@
 window.onload = function() { //only starts when the screen loaded
-  /*const isMobile = navigator.userAgentData.mobile; //resolves true/false
-  if (isMobile == true) {
-    console.log('mobile');
-    document.body.style.background = "#333333";
-    document.getElementById("p-notice").style.opacity = 1;
-  }
-  else{
-    var notice = document.getElementById('p-notice')
-    notice.parentNode.removeChild(notice)
-  }*/
 
   //Variables
   var prevScrollpos = window.pageYOffset;
   var visible = false;
   var DarkMode = true;
   
+  const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+loop: true,
+
+pagination: {
+el: '.swiper-pagination',
+clickable: true,
+},
+
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+
+});
+
   function ChangeToLight() {
     DarkMode = false;
     document.getElementById('ThemeIco').src = "Resources/Light.png";
