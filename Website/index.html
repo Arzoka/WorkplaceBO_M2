@@ -17,7 +17,7 @@
 
 </head>
 <body>
-    <div class="background">
+    <div class="background" id="background">
         <div class="container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
@@ -38,10 +38,10 @@
                 
               </div>
         </div>
-        <h2 class="about-museum OtherText">Scroll-Test</h2>
-        <h2 class="ReviewsTitle OtherText">Reviews</h2>
+        <h2 class="about-museum OtherText" id="OtherText">Scroll-Test</h2>
+        <h2 class="ReviewsTitle OtherText" id="ReviewsTitle">Reviews</h2>
         <div class="ReviewsBox">
-            <p class="ActiveText ReviewText">
+            <p class="ActiveText ReviewText" id="ReviewText">
                 "Lorem ipsum dolor sit amet. Qui provident ullam qui <br>
 aliquid voluptas eum itaque eveniet <br>
 a consequator dicta ea illo omnis in temporibus sequi. <br>
@@ -58,7 +58,14 @@ ullam." -Danique Velour
     </div>
     
     <div class="slide-bar" id="slide-bar">
-
+        <div class="placeholder-s-bar-object"></div>
+        <div class="theme s-bar-object" id="themebutton">
+            <p class="themetext s-bar-text">Toggle theme</p>
+            <div class="theme-icon">
+                <img src="Resources/Dark.png" class="ThemeIco s-bar-icons" id="ThemeIco">
+            </div>
+        </div>
+        
     </div>
 
     <div class="bar" id="bar"> <!--class is used for connecting to css and id is mainly for js-->
@@ -75,7 +82,8 @@ ullam." -Danique Velour
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
         class="iconlink"> <!-- refers to a link and href = refrence-->
             <img src="Resources/logo.png"
-            class="museum-icon">
+            class="museum-icon"
+            id="logo">
         </a>
 
         <img src="Resources/nav_icon.png"

@@ -14,6 +14,36 @@ window.onload = function() { //only starts when the screen loaded
   var prevScrollpos = window.pageYOffset;
   var slide_button = document.getElementById("slide-button");
   var visible = false;
+  var DarkMode = true;
+  
+  function ChangeToLight() {
+    DarkMode = false;
+    document.getElementById('ThemeIco').src = "Resources/Light.png";
+    document.body.style.background = "#FFFFFF";
+    document.getElementById('bar').style.background = "#DDDDDD";
+    document.getElementById('bar').style.backgroundImage = "url(Resources/bar_background.png)";
+    document.getElementById('slide-bar').style.background = "#CCCCCC";
+    document.getElementById('themebutton').style.background = "#BBBBBB";
+    document.getElementById('OtherText').style.color = "#000000";
+    document.getElementById('ReviewText').style.color = "#000000";
+    document.getElementById('ReviewsTitle').style.color = "#000000";
+    document.getElementById('logo').src = "Resources/logodark.png";
+  }
+
+  function ChangeToDark() {
+    DarkMode = true;
+    document.getElementById('ThemeIco').src = "Resources/Dark.png";
+    document.body.style.background = "#333333";
+    document.getElementById('bar').style.background = "#333333";
+    document.getElementById('bar').style.backgroundImage = "url(Resources/bar_background.png)";
+    document.getElementById('slide-bar').style.background = "#222222";
+    document.getElementById('themebutton').style.background = "#333333";
+    document.getElementById('OtherText').style.color = "#FFFFFF";
+    document.getElementById('ReviewText').style.color = "#FFFFFF";
+    document.getElementById('ReviewsTitle').style.color = "#FFFFFF";
+    document.getElementById('logo').src = "Resources/logo.png";
+  }
+
 
   //Click event for slide button
   document.getElementById('slide-button').addEventListener('click', function (e) { //Add the event
@@ -21,7 +51,7 @@ window.onload = function() { //only starts when the screen loaded
     if (visible == true) {
       document.getElementById('slide-bar').style.top = "-100%";
       document.getElementById('slide-button').style.rotate = "0deg";
-      document.getElementById('slide-button').style.filter = "drop-shadow(0px -3px 5px #000000) drop-shadow(0px 3px 5px #000000)";
+      document.getElementById('slide-button').style.filter = "drop-shadow(0px 0px 0px";
 
       visible = false;
     }
@@ -34,6 +64,18 @@ window.onload = function() { //only starts when the screen loaded
       visible = true;
     } 
   });
+
+  document.getElementById('themebutton').addEventListener('click', function (e) { //Add the event
+    if (visible == true) {
+      if (DarkMode == true) {
+        ChangeToLight();
+      }
+      else {
+        ChangeToDark();
+      }
+    }
+  });
+
 
   window.onscroll = function() { //Triggers when scrolling
     //Variables
@@ -71,7 +113,7 @@ window.onload = function() { //only starts when the screen loaded
     }
 
     else {
-      s_bar.style.filter = "drop-shadow(0px -3px 5px #000000) drop-shadow(0px 3px 5px #000000)"
+      s_bar.style.filter = "drop-shadow(0px 0px 0px";
       s_bar.style.width = "12.5%";
       //s_bar.style.top = "0";  
       
@@ -86,5 +128,4 @@ window.onload = function() { //only starts when the screen loaded
   }
 
   setInterval(checkInputFocus, 5); //Do this function every 5 miliseconds
-  
 };

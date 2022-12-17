@@ -6,7 +6,7 @@ html, body {
 }
   
 body {
-  background: #FFFFFF; 
+  background: #333333; 
 }
 
 body::-webkit-scrollbar{
@@ -62,15 +62,52 @@ body::-webkit-scrollbar{
 
 .slide-bar{
   position:fixed;
-  display:flex;
   justify-content:center;
   align-items: center;
   height:100vh;
-  width:25%;
+  width:15%;
   top:-100%;
   right:0;
   transition: top 0.5s; /*gives it a slight animation*/
-  background:#333333;
+  background:#222222;
+}
+
+.placeholder-s-bar-object{
+  width: 100%;
+  height: 10%;
+}
+
+.s-bar-object{
+  position: relative;
+  left: 5%;
+  width: 95%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #333333;
+  transition: background 0.1s;
+}
+
+.ThemeIco{
+  src: url("Resources/Dark.png");
+  transition: src 0.5;
+}
+
+.theme-icon{
+  position: absolute;
+  right: 5%;
+  height: 100%;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  object-fit:fill;
+}
+
+.s-bar-icons{
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .bar {
@@ -79,7 +116,7 @@ body::-webkit-scrollbar{
   position: fixed;
   width: 100%;
   height: 75px;
-  background: black;
+  background: #333333;
   background-image: url("Resources/bar_background.png");
   object-fit:fill;
   background-size: cover;
@@ -106,7 +143,6 @@ body::-webkit-scrollbar{
 .slide-button{
   cursor: pointer; /*makes it so we change the cursor icon to pointer*/
   position: absolute;
-  filter: drop-shadow(0px -3px 5px #000000) drop-shadow(0px 3px 5px #000000);
   rotate: 0deg;
   right:0;
   width: 5%;
@@ -116,7 +152,6 @@ body::-webkit-scrollbar{
 }
 
 .search-bar{
-  filter: drop-shadow(0px -3px 5px #000000) drop-shadow(0px 3px 5px #000000);
   overflow: hidden;
   display:flex;
   justify-content:center;
@@ -163,15 +198,25 @@ body::-webkit-scrollbar{
   font-weight: 400px;
 }
 
+.s-bar-text{
+  position: absolute;
+  left: 5%;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400px;
+  font-size: 25px;
+  
+}
+
 .OtherText{
   font-family: 'Roboto', sans-serif;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 400px;
 }
 
 .ReviewText{
+  color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
-  color: #000000;
   font-weight: 400px;
   font-size: 100%;
   text-align: center;
