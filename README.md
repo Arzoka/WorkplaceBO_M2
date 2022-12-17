@@ -61,3 +61,6 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 12/16/2022:
 - Sat at a cafe to discuss further task managment and planning
 - Added a working image-slider
+
+12/17/2022:
+- Fixed "bar" layering using z-index
