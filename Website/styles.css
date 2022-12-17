@@ -87,6 +87,7 @@ body::-webkit-scrollbar{
   display: flex;
   background: #333333;
   transition: background 0.1s;
+  cursor: pointer;
 }
 
 .ThemeIco{

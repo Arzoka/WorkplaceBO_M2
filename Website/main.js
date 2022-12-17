@@ -45,6 +45,7 @@ window.onload = function() { //only starts when the screen loaded
     document.getElementById('ReviewsTitle').style.color = "#FFFFFF";
     document.getElementById('logo').src = "Resources/logo.png";
     document.getElementById('slide-button').src = "Resources/nav_icon.png";
+    document.getElementById('slide-button').style.filter = "drop-shadow(0px -3px 5px #FFFFFF) drop-shadow(0px 3px 5px #FFFFFF)";
   }
 
 
