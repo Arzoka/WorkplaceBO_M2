@@ -57,3 +57,7 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 - Discussed work on website
 - Continued work on website, fixed zooming-issues and cross-browser accesibility
 - Published Website to (See "Overview" section)
+
+12/16/2022:
+- Sat at a cafe to discuss further task managment and planning
+- Added a working image-slider
