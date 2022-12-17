@@ -12,7 +12,6 @@ window.onload = function() { //only starts when the screen loaded
 
   //Variables
   var prevScrollpos = window.pageYOffset;
-  var slide_button = document.getElementById("slide-button");
   var visible = false;
   var DarkMode = true;
   
@@ -28,8 +27,12 @@ window.onload = function() { //only starts when the screen loaded
     document.getElementById('ReviewText').style.color = "#000000";
     document.getElementById('ReviewsTitle').style.color = "#000000";
     document.getElementById('logo').src = "Resources/logodark.png";
-    document.getElementById('slide-button').src = "Resources/nav_iconDark.png";
-    document.getElementById('slide-button').style.filter = "drop-shadow(0px 0px 0px";
+    document.getElementById('mtb1').classList.add("MenuToggleBar--black")
+    document.getElementById('mtb2').classList.add("MenuToggleBar--black")
+    document.getElementById('mtb3').classList.add("MenuToggleBar--black")
+    document.getElementById('mtb1').classList.remove("MenuToggleBar--white")
+    document.getElementById('mtb2').classList.remove("MenuToggleBar--white")
+    document.getElementById('mtb3').classList.remove("MenuToggleBar--white")
   }
 
   function ChangeToDark() {
@@ -44,32 +47,26 @@ window.onload = function() { //only starts when the screen loaded
     document.getElementById('ReviewText').style.color = "#FFFFFF";
     document.getElementById('ReviewsTitle').style.color = "#FFFFFF";
     document.getElementById('logo').src = "Resources/logo.png";
-    document.getElementById('slide-button').src = "Resources/nav_icon.png";
-    document.getElementById('slide-button').style.filter = "drop-shadow(0px -3px 5px #FFFFFF) drop-shadow(0px 3px 5px #FFFFFF)";
+    document.getElementById('mtb1').classList.add("MenuToggleBar--white")
+    document.getElementById('mtb2').classList.add("MenuToggleBar--white")
+    document.getElementById('mtb3').classList.add("MenuToggleBar--white")
+    document.getElementById('mtb1').classList.remove("MenuToggleBar--black")
+    document.getElementById('mtb2').classList.remove("MenuToggleBar--black")
+    document.getElementById('mtb3').classList.remove("MenuToggleBar--black")
+    
   }
 
-
-  //Click event for slide button
-  document.getElementById('slide-button').addEventListener('click', function (e) { //Add the event
-
+  document.getElementById('menuToggle').addEventListener('click', () => {
+    document.getElementById('menuToggle').classList.toggle('active');
     if (visible == true) {
       document.getElementById('slide-bar').style.top = "-100%";
-      document.getElementById('slide-button').style.rotate = "0deg";
-      document.getElementById('slide-button').style.filter = "drop-shadow(0px 0px 0px";
-
       visible = false;
     }
-
     else{
       document.getElementById('slide-bar').style.top = "0%";
-      document.getElementById('slide-button').style.rotate = "90deg";
-      if (DarkMode == true) {
-        document.getElementById('slide-button').style.filter = "drop-shadow(0px -3px 5px #FFFFFF) drop-shadow(0px 3px 5px #FFFFFF)";
-      }
-      
-      visible = true;
-    } 
-  });
+      visible = true
+    }
+  })
 
   document.getElementById('themebutton').addEventListener('click', function (e) { //Add the event
     if (visible == true) {
@@ -81,7 +78,6 @@ window.onload = function() { //only starts when the screen loaded
       }
     }
   });
-
 
   window.onscroll = function() { //Triggers when scrolling
     //Variables
@@ -105,7 +101,7 @@ window.onload = function() { //only starts when the screen loaded
 
     if (document.activeElement == s_input){ //If input is focus
       s_bar.style.width = "20%";
-      s_bar.style.filter = "drop-shadow(0px -3px 5px #FFFFFF) drop-shadow(0px 3px 5px #FFFFFF)";
+      //s_bar.style.filter = "drop-shadow(0px -3px 5px #FFFFFF) drop-shadow(0px 3px 5px #FFFFFF)";
       //s_bar.style.top = "-10%";
 
       if (s_input && s_input.value) { //If it exists and if it has letter(s) in it
@@ -119,7 +115,7 @@ window.onload = function() { //only starts when the screen loaded
     }
 
     else {
-      s_bar.style.filter = "drop-shadow(0px 0px 0px";
+      //s_bar.style.filter = "drop-shadow(0px 0px 0px";
       s_bar.style.width = "12.5%";
       //s_bar.style.top = "0";  
       

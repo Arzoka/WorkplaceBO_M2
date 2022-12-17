@@ -111,21 +111,90 @@ body::-webkit-scrollbar{
   max-width: 100%;
 }
 
+/*.imagefloattest{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.imagetest{
+  height: 500px;
+  width: 500px;
+}*/
+
 .bar {
   z-index: 1;
   top:0;
   position: fixed;
   width: 100%;
-  height: 75px;
+  height: 65px;
   background: #333333;
   background-image: url("Resources/bar_background.png");
   object-fit:fill;
-  background-size: cover;
-  background-repeat: no-repeat;
   display:flex;
   justify-content:center;
   align-items: center;
   transition: top 0.5s;
+}
+.menu__toggler {
+  position: absolute;
+  right:1%;
+  height: 28px;
+  width: 28px;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+}
+.menu__toggler .mbt3, .menu__toggler .mbt1, .menu__toggler .mbt2 {
+  position: absolute;
+  content: '';
+  width: 28px;
+  height: 2.5px;
+  border-radius: 20px;
+  transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+.mtb1 {
+  top: 6px;
+}
+.mtb2 {
+  top: 14px;
+}
+
+.mtb3 {
+  top: 22px;
+}
+
+.menu__toggler.active > .mtb3 {
+  background: transparent;
+}
+
+.menu__toggler.active > .mtb2 {
+  top: 14px;
+  transform: rotate(-225deg);
+}
+
+.menu__toggler.active > .mtb1 {
+  top: 14px;
+  transform: rotate(225deg);
+}
+
+.MenuToggleBar--white{
+  position: absolute;
+  background: white;
+  content: '';
+  width: 28px;
+  height: 2.5px;
+  border-radius: 20px;
+  transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.MenuToggleBar--black{
+  position: absolute;
+  background: black;
+  content: '';
+  width: 28px;
+  height: 2.5px;
+  border-radius: 20px;
+  transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .iconlink{
@@ -228,9 +297,9 @@ body::-webkit-scrollbar{
   justify-content: center;
   display: flex;
   align-items: center;
-  top: 12.5vh;
-  width: 55%;
-  height: 75vh;
+  top: 15vh;
+  width: 70%;
+  height: 80vh;
 }
 
 .swiper{
