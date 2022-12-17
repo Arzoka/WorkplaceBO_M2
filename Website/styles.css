@@ -36,6 +36,23 @@ body::-webkit-scrollbar{
   height: 100%;
 }
 
+.ReviewsTitle{
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 300vh;
+}
+
+.ReviewsBox{
+  position: relative;
+  align-items: center;
+  display: center;
+  justify-content: center;
+  width: 55%;
+  height: 75vh;
+  top: 310vh;
+}
+
 .about-museum{
   position: absolute;
   width: auto;
@@ -149,6 +166,14 @@ body::-webkit-scrollbar{
   font-family: 'Roboto', sans-serif;
   color: #000000;
   font-weight: 400px;
+}
+
+.ReviewText{
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-weight: 400px;
+  font-size: 100%;
+  text-align: center;
 }
 
 .p-notice{
