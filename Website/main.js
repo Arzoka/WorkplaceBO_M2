@@ -28,6 +28,8 @@ window.onload = function() { //only starts when the screen loaded
     document.getElementById('ReviewText').style.color = "#000000";
     document.getElementById('ReviewsTitle').style.color = "#000000";
     document.getElementById('logo').src = "Resources/logodark.png";
+    document.getElementById('slide-button').src = "Resources/nav_iconDark.png";
+    document.getElementById('slide-button').style.filter = "drop-shadow(0px 0px 0px";
   }
 
   function ChangeToDark() {
@@ -42,6 +44,7 @@ window.onload = function() { //only starts when the screen loaded
     document.getElementById('ReviewText').style.color = "#FFFFFF";
     document.getElementById('ReviewsTitle').style.color = "#FFFFFF";
     document.getElementById('logo').src = "Resources/logo.png";
+    document.getElementById('slide-button').src = "Resources/nav_icon.png";
   }
 
 
@@ -59,7 +62,9 @@ window.onload = function() { //only starts when the screen loaded
     else{
       document.getElementById('slide-bar').style.top = "0%";
       document.getElementById('slide-button').style.rotate = "90deg";
-      document.getElementById('slide-button').style.filter = "drop-shadow(0px -3px 5px #FFFFFF) drop-shadow(0px 3px 5px #FFFFFF)";
+      if (DarkMode == true) {
+        document.getElementById('slide-button').style.filter = "drop-shadow(0px -3px 5px #FFFFFF) drop-shadow(0px 3px 5px #FFFFFF)";
+      }
       
       visible = true;
     } 
