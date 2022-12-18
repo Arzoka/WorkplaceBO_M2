@@ -64,3 +64,5 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 
 12/17/2022:
 - Fixed "bar" layering using z-index
+- Started revamp site
+- Started looking into web design
