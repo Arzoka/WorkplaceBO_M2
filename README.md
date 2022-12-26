@@ -66,3 +66,11 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 - Fixed "bar" layering using z-index
 - Started revamp site
 - Started looking into web design
+
+#Christmas Vacation
+
+12/24/2022:
+- Started work on local repository RevampBOTest
+
+12/25/2022:
+- Continued work on local repository RevampBOTest
