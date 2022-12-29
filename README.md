@@ -67,7 +67,7 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 - Started revamp site
 - Started looking into web design
 
-#Christmas Vacation
+# Christmas Vacation
 
 12/24/2022:
 - Started work on local repository RevampBOTest
