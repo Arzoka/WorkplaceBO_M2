@@ -73,22 +73,24 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 - Started work on local repository RevampBOTest
 
 12/25/2022:
-- Continued work on local repository RevampBOTest
+- File setup and loading screen (local repository RevampBOTest)
 
 12/26/2022:
-- Continued work on local repository RevampBOTest
+- Light mode / dark mode toggle (local repository RevampBOTest)
+- Added mobile compatibility
 
 12/27/2022:
-- Continued work on local repository RevampBOTest
+- Added pacman animation @ bottomsection (local repository RevampBOTest)
 
 12/28/2022:
-- Continued work on local repository RevampBOTest
+- Improved pacman animation @ bottomsection (local repository RevampBOTest)
+- Fixed mobile compatibility with pacman animation (local repository RevampBOTest)
 
 12/29/2022:
-- Continued work on local repository RevampBOTest
+- Added theme toggle and language buttons (local repository RevampBOTest)
 
 12/30/2022:
-- Continued work on local repository RevampBOTest
+- Added buttons to switch pages and improved topbar (local repository RevampBOTest)
 
 12/31/2022:
-- Continued work on local repository RevampBOTest
+- imported .gltf file to the information page using threejs as a cool background (local repository RevampBOTest)
