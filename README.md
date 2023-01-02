@@ -94,3 +94,7 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 
 12/31/2022:
 - imported .gltf file to the information page using threejs as a cool background (local repository RevampBOTest)
+
+01/02/2023:
+- Added search bar to topbar (local repository RevampBOTest)
+- Temporarily removed mobile compatibility to focus on content first (local repository RevampBOTest)
