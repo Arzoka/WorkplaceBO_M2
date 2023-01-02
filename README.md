@@ -98,3 +98,4 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 01/02/2023:
 - Added search bar to topbar (local repository RevampBOTest)
 - Temporarily removed mobile compatibility to focus on content first (local repository RevampBOTest)
+- Moved local repository RevampBOTest to new branch "Revamp"
