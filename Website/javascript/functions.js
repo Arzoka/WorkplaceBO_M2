@@ -25,6 +25,7 @@ class Functions{
         else{
             this.ChangeZIndex();
             console.log('Page loaded!');
+            this.loaded();
         }
     }
     
@@ -116,7 +117,6 @@ class Functions{
     }
     
     //Checks page location
-
     CheckPage() {
         console.log('checked');
         if (window.location.href.includes("home.html")) {
@@ -192,19 +192,22 @@ class Functions{
     //Check the language variable to change the websites language if needed
     CheckLanguage() {
         if (localStorage.getItem("language") == "dutch") {
-            document.getElementById('dutch-button').style.boxShadow = "0px 0px 5px #FFFFFF";
+            document.getElementById('search-input').placeholder = "Zoeken..";
+            document.getElementById('dutch-button').style.boxShadow = "0px 0px 10px var(--thirtyperc)";
             document.getElementById('english-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
             document.getElementById('information-t').innerHTML = "Informatie";
         }
         else if (localStorage.getItem("language") == "english") {
-            document.getElementById('english-button').style.boxShadow = "0px 0px 5px #FFFFFF";
+            document.getElementById('search-input').placeholder = "Search..";
+            document.getElementById('english-button').style.boxShadow = "0px 0px 10px var(--thirtyperc)";
             document.getElementById('dutch-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
             document.getElementById('information-t').innerHTML = "Information";
         }
         else{
-            document.getElementById('dutch-button').style.boxShadow = "0px 0px 5px #FFFFFF";
+            document.getElementById('search-input').placeholder = "Search..";
+            document.getElementById('dutch-button').style.boxShadow = "0px 0px 10px var(--thirtyperc)";
             document.getElementById('english-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
             document.getElementById('information-t').innerHTML = "Information";
@@ -249,6 +252,7 @@ class Functions{
         }
     }
 
+    //Searchbar input check
     checkInputFocus() {
         //Variables
         var s_input = document.getElementById("search-input");
