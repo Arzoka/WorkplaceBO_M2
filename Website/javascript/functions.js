@@ -242,16 +242,6 @@ class Functions{
         }
     }
 
-    //Checks scrollpos to adjust topbar accordingly
-    CheckScrollPos() {
-        let scrollpos = window.scrollY;
-        if (scrollpos == 0) {
-            document.getElementById('topbar').style.height = "9%";
-        } else{
-            document.getElementById('topbar').style.height = "8.5%";
-        }
-    }
-
     //Searchbar input check
     checkInputFocus() {
         //Variables
@@ -293,7 +283,6 @@ class Functions{
     Interval() {
         functions.checkInputFocus();
         functions.ChangeGhost();
-        functions.CheckScrollPos();
         functions.CheckTheme();
         functions.elementsOverlap(document.getElementById('d1'),document.getElementById('pacman'));
         functions.elementsOverlap(document.getElementById('d2'),document.getElementById('pacman'));

@@ -18,16 +18,18 @@
 </head>
 
 <body>
+    
     <!--Loading screen-->
 
-    <div class="loadscreen" id="loadscreen">
-        <div class="dots" id="dots">
+    <div id="loadscreen">
+        <div id="dots">
             <div class="dot" id="dot1"></div>
             <div class="dot" id="dot2"></div>
             <div class="dot" id="dot3"></div>
         </div>
-        <div class="loadbar" id="loadbar">
-            <div class="progress" id="progress"></div>
+        <h2 id="loadtext"> This site is purely for educational purposes and has no official connection to Nationaal Videogame Museum.</h2>
+        <div id="loadbar">
+            <div id="progress"></div>
         </div>
     </div>
 
@@ -37,10 +39,10 @@
     
     <!--Top bar-->
 
-    <div id="topbar" class="topbar">
-        <div id="topbarborder"class="topbarborder"></div>
+    <div id="topbar">
+        <div id="topbarborder"></div>
 
-        <div class="vgm-logo" id="vgm-logo"></div>
+        <div id="vgm-logo"></div>
         <div class="buttons">
 
             <div class="home gotobutton" id="home-button">
@@ -55,9 +57,9 @@
 
         </div>
 
-        <div class="search-bar" id="s-bar">
-            <input class="search-input" id="search-input" placeholder="Search..">
-            <img src="../img/search_icon.png" class="search-icon" id ="s-icon">
+        <div id="s-bar">
+            <input id="search-input" placeholder="Search..">
+            <img src="../img/search_icon.png" id ="s-icon">
         </div>
 
         
@@ -66,8 +68,8 @@
             <div class="dutch languagebutton" id="dutch-button"></div>
         </div>
         
-        <div class="toggletheme" id="toggle-theme">
-            <div class="t-overlay" id="t-overlay"></div>
+        <div id="toggle-theme">
+            <div id="t-overlay"></div>
         </div>
     </div>
 
@@ -78,14 +80,13 @@
     <!--Page-->
 
     <div class="page" id="page">
-        <div class="GoToOther" id="GoToOther" height="50px" width="50px"href="information.html" background="red"></div>
 
-        <div class="BottomSection" id="BottomSection">
+        <div id="BottomSection">
             
-            <div id="BottomSecTopBar"class="BottomSecTopBar"></div>
+            <div id="BottomSecTopBar"></div>
 
             <!--Pacman animation-->
-            <div class="pacmanarea" id="PacmanArea">
+            <div id="PacmanArea">
                 <div class="PacmanDot d1" id="d1"></div>
                 <div class="PacmanDot d2" id="d2"></div>
                 <div class="PacmanDot d3" id="d3"></div>
@@ -96,8 +97,8 @@
                 <div class="PacmanDot d8" id="d8"></div>
                 <div class="PacmanDot d9" id="d9"></div>
                 <div class="PacmanDot d10" id="d10"></div>
-                <div class="ghost pacmanobj" id="ghost"></div>
-                <div class="pacman pacmanobj" id="pacman"></div>
+                <div class="PacmanObj" id="ghost"></div>
+                <div class="PacmanObj" id="pacman"></div>
                 <div class="leftso sideoverlay"></div>
                 <div class="rightso sideoverlay"></div>
             </div>
