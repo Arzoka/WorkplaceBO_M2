@@ -2,7 +2,7 @@
 Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 
 - Trello: https://trello.com/b/aFYQ9Ary/bo-website-m2
-- Website: https://35233.hosts2.ma-cloud.nl/WorkplaceBO_M2/Website/index.html (No mobile support, Updated daily, not every commit)
+- Website: https://35233.hosts2.ma-cloud.nl/MuseumOnline/html/home.html (No mobile support, Updated daily, not every commit)
 
 # Changelogs:
 
@@ -99,3 +99,10 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 - Added search bar to topbar (local repository RevampBOTest)
 - Temporarily removed mobile compatibility to focus on content first (local repository RevampBOTest)
 - Moved local repository RevampBOTest to new branch "Revamp"
+
+01/07/2023:
+- Went over all progress so far
+- Cleaned up code
+
+01/08/2023:
+- Bug fixes
