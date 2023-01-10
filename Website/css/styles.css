@@ -12,6 +12,7 @@
     --tenperc: #FFFFFF;
     --themecolor: #FFFFFF;
     --logo: url('../img/logo.png');
+    --tickets: url('../img/ticket.png')
     --canvtop: 100%;
     --canvop: 0;
 }
@@ -191,7 +192,7 @@ body{
 .gotobutton{
     position: relative;
     height: 100%;
-    width: 25%;
+    width: 23%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,6 +283,20 @@ body{
     width: 0%;
     background: var(--sixtyperc);
     transition: height 0.5s, width 0.5s, background 0.5s;
+}
+
+#tickets{
+    position: relative;
+    top: 50%;
+    right: 1.5%;
+    height: 60%;
+    width: 5%;
+    rotate: -25deg;
+    background-image: var(--tickets);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-50%);
 }
 
 .languages{

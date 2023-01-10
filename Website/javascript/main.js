@@ -19,6 +19,16 @@ window.onload = function() {
         functions.SwitchPage("info");
     });
 
+    document.getElementById('history-button').addEventListener('click', () => {
+        functions.SwitchPage("history");
+    });
+
+    document.getElementById('game-button').addEventListener('click', () => {
+        functions.SwitchPage("game");
+    });
+
+    
+
     //Change language to english
     document.getElementById('english-button').addEventListener('click', () => {
         functions.ChangeLanguage('english');

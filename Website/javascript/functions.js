@@ -70,6 +70,7 @@ class Functions{
             r.style.setProperty('--thirtyperc', '#fb95ff');
             r.style.setProperty('--tenperc', '#FFFFFF');
             r.style.setProperty('--logo',"url('../img/logo.png')");
+            r.style.setProperty('--tickets',"url('../img/ticket.png')");
             r.style.setProperty('--themecolor',"#FFFFFF");
             r.style.setProperty('--searchbar','#FFFFFF');
             document.getElementById('t-overlay').style.height = "95%";
@@ -82,6 +83,7 @@ class Functions{
             r.style.setProperty('--thirtyperc', '#fb95ff');
             r.style.setProperty('--tenperc', '#666666');
             r.style.setProperty('--logo',"url('../img/logodark.png')");
+            r.style.setProperty('--tickets',"url('../img/ticket.png')");
             r.style.setProperty('--themecolor',"#ffe99a");
             r.style.setProperty('--searchbar','#fb95ff');
             document.getElementById('t-overlay').style.height = "0%";
@@ -132,7 +134,21 @@ class Functions{
                 document.getElementById('title').innerHTML = "Informatie";
             } else{
                 document.getElementById('title').innerHTML = "Information";
-            }
+            } 
+        } else if (window.location.href.includes("history.html")) {
+            document.getElementById('history-b-line').style.width = "80%";
+            if (localStorage.getItem("language") == "dutch") {
+                document.getElementById('title').innerHTML = "Geschiedenis";
+            } else{
+                document.getElementById('title').innerHTML = "History";
+            }  
+        } else if (window.location.href.includes("game.html")) {
+            document.getElementById('game-b-line').style.width = "80%";
+            if (localStorage.getItem("language") == "dutch") {
+                document.getElementById('title').innerHTML = "Spel";
+            } else{
+                document.getElementById('title').innerHTML = "Game";
+            } 
         }
     }
 
@@ -144,6 +160,12 @@ class Functions{
         }
         else if (page == "info") {
             window.location.replace("information.html");
+        }
+        else if (page == "history") {
+            window.location.replace("history.html");
+        }
+        else if (page == "game") {
+            window.location.replace("game.html");
         }
     }
 
@@ -197,6 +219,8 @@ class Functions{
             document.getElementById('english-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
             document.getElementById('information-t').innerHTML = "Informatie";
+            document.getElementById('history-t').innerHTML = "Geschiedenis";
+            document.getElementById('game-t').innerHTML = "Spel";
         }
         else if (localStorage.getItem("language") == "english") {
             document.getElementById('search-input').placeholder = "Search..";
@@ -204,6 +228,8 @@ class Functions{
             document.getElementById('dutch-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
             document.getElementById('information-t').innerHTML = "Information";
+            document.getElementById('history-t').innerHTML = "History";
+            document.getElementById('game-t').innerHTML = "Game";
         }
         else{
             document.getElementById('search-input').placeholder = "Search..";
@@ -211,6 +237,8 @@ class Functions{
             document.getElementById('english-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
             document.getElementById('information-t').innerHTML = "Information";
+            document.getElementById('history-t').innerHTML = "History";
+            document.getElementById('game-t').innerHTML = "Game";
         }
     }
 
