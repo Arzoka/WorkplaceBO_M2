@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Comic+Neue&family=Inter:wght@200&family=Open+Sans&family=Roboto&display=swap');
 /*Variables*/
 
 :root{
@@ -149,7 +149,7 @@ body{
 
 /*Top bar*/
 
-#topbar{
+header{
     position: fixed;
     display: flex;
     z-index: 69;
@@ -288,10 +288,10 @@ body{
 #tickets{
     position: relative;
     top: 50%;
-    right: 1.5%;
-    height: 60%;
+    right: 1%;
+    height: 55%;
     width: 5%;
-    rotate: -25deg;
+    rotate: -35deg;
     background-image: var(--tickets);
     background-size: contain;
     background-repeat: no-repeat;
@@ -341,13 +341,40 @@ body{
     top: 0px;
     height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.textbox{
+    position: absolute;
+    text-align: center;
+    height: 10%;
+    width: 40%;
+}
+
+.textbox-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: var(--tenperc);
+}
+
+.textbox-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 34px;
+    color: var(--thirtyperc);
+}
+
+#opening-times{
+    bottom: 30%;
 }
 
 /* End page properties*/
 
 /*Footer*/
 
-#BottomSection{
+footer{
     position: absolute;
     width: 100vw;
     background: var(--sixtyperc);

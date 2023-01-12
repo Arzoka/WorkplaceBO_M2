@@ -83,7 +83,7 @@ class Functions{
             r.style.setProperty('--thirtyperc', '#fb95ff');
             r.style.setProperty('--tenperc', '#666666');
             r.style.setProperty('--logo',"url('../img/logodark.png')");
-            r.style.setProperty('--tickets',"url('../img/ticket.png')");
+            r.style.setProperty('--tickets',"url('../img/ticketdark.png')");
             r.style.setProperty('--themecolor',"#ffe99a");
             r.style.setProperty('--searchbar','#fb95ff');
             document.getElementById('t-overlay').style.height = "0%";
@@ -197,8 +197,14 @@ class Functions{
                 el1.style.width = "80%";
                 document.getElementById('PacmanArea').style.bottom = "30%";
                 document.getElementById('PacmanArea').style.opacity = 1;
+            }
+
+            else if (el1.id == "opening-times") {
+                document.getElementById('opening-times').style.opacity = 1;
+                document.getElementById('opening-times').style.bottom = 0;
                 
             }
+            
             else{
                 console.log('not found');
             }
@@ -221,6 +227,16 @@ class Functions{
             document.getElementById('information-t').innerHTML = "Informatie";
             document.getElementById('history-t').innerHTML = "Geschiedenis";
             document.getElementById('game-t').innerHTML = "Spel";
+            if (window.location.href.includes("home.html")) {
+                document.getElementById('opening-times-title').innerHTML = "Openingstijden:";
+                document.getElementById('monday').innerHTML = "Maandag: Gesloten";
+                document.getElementById('tuesday').innerHTML = "Dinsdag: Gesloten";
+                document.getElementById('wednesday').innerHTML = "Woensdag: 10.00 - 18.00";
+                document.getElementById('thursday').innerHTML = "Donderdag: 10.00 - 18.00";
+                document.getElementById('friday').innerHTML = "Vrijdag: 10.00 - 21.00";
+                document.getElementById('saturday').innerHTML = "Zaterdag: 10.00 - 18.00";
+                document.getElementById('sunday').innerHTML = "Zondag: 12.00 - 18.00";
+            }
         }
         else if (localStorage.getItem("language") == "english") {
             document.getElementById('search-input').placeholder = "Search..";
@@ -230,6 +246,16 @@ class Functions{
             document.getElementById('information-t').innerHTML = "Information";
             document.getElementById('history-t').innerHTML = "History";
             document.getElementById('game-t').innerHTML = "Game";
+            if (window.location.href.includes("home.html")) {
+                document.getElementById('opening-times-title').innerHTML = "Opening times:";
+                document.getElementById('monday').innerHTML = "Monday: Closed";
+                document.getElementById('tuesday').innerHTML = "Tuesday: Closed";
+                document.getElementById('wednesday').innerHTML = "Wednesday: 10.00 - 18.00";
+                document.getElementById('thursday').innerHTML = "Thursday: 10.00 - 18.00";
+                document.getElementById('friday').innerHTML = "Friday: 10.00 - 21.00";
+                document.getElementById('saturday').innerHTML = "Saturday: 10.00 - 18.00";
+                document.getElementById('sunday').innerHTML = "Sunday: 12.00 - 18.00";
+            }
         }
         else{
             document.getElementById('search-input').placeholder = "Search..";
@@ -239,6 +265,16 @@ class Functions{
             document.getElementById('information-t').innerHTML = "Information";
             document.getElementById('history-t').innerHTML = "History";
             document.getElementById('game-t').innerHTML = "Game";
+            if (window.location.href.includes("home.html")) {
+                document.getElementById('opening-times-title').innerHTML = "Opening times:";
+                document.getElementById('monday').innerHTML = "Monday: Closed";
+                document.getElementById('tuesday').innerHTML = "Tuesday: Closed";
+                document.getElementById('wednesday').innerHTML = "Wednesday: 10.00 - 18.00";
+                document.getElementById('thursday').innerHTML = "Thursday: 10.00 - 18.00";
+                document.getElementById('friday').innerHTML = "Friday: 10.00 - 21.00";
+                document.getElementById('saturday').innerHTML = "Saturday: 10.00 - 18.00";
+                document.getElementById('sunday').innerHTML = "Sunday: 12.00 - 18.00";
+            }
         }
     }
 
