@@ -1,3 +1,7 @@
+### THIS BRANCH IS NO LONGER USED!
+
+## this was our original project, however we fully revamped the website and switched main to the revamped version.
+
 # Overview
 Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 
@@ -72,30 +76,5 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 12/24/2022:
 - Started work on local repository RevampBOTest
 
-12/25/2022:
-- File setup and loading screen (local repository RevampBOTest)
-
-12/26/2022:
-- Light mode / dark mode toggle (local repository RevampBOTest)
-- Added mobile compatibility
-
-12/27/2022:
-- Added pacman animation @ bottomsection (local repository RevampBOTest)
-
-12/28/2022:
-- Improved pacman animation @ bottomsection (local repository RevampBOTest)
-- Fixed mobile compatibility with pacman animation (local repository RevampBOTest)
-
-12/29/2022:
-- Added theme toggle and language buttons (local repository RevampBOTest)
-
-12/30/2022:
-- Added buttons to switch pages and improved topbar (local repository RevampBOTest)
-
-12/31/2022:
-- imported .gltf file to the information page using threejs as a cool background (local repository RevampBOTest)
-
 01/02/2023:
-- Added search bar to topbar (local repository RevampBOTest)
-- Temporarily removed mobile compatibility to focus on content first (local repository RevampBOTest)
 - Moved local repository RevampBOTest to new branch "Revamp"
