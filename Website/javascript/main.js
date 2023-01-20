@@ -70,25 +70,26 @@ window.onload = function() {
     setCookie("visited", "yes", null);
     }
 }
-
-const swiper = new Swiper('.swiper', {
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
+if (window.location.href.includes("home.html")) {
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+    loop: true,
+    
+    pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
     },
-loop: true,
-
-pagination: {
-el: '.swiper-pagination',
-clickable: true,
-},
-
-navigation: {
-nextEl: '.swiper-button-next',
-prevEl: '.swiper-button-prev',
-},
-
-});
+    
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+    
+    });
+}
 
 //Intervals
 setInterval(functions.Interval,10);
