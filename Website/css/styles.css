@@ -38,8 +38,6 @@
 body{
     scroll-behavior: smooth;
     overflow-x: hidden;
-    height: 3000px; /* Used to enable scrolling */
-    background: linear-gradient(var(--sixtypercgrad),var(--sixtyperc));
     background-repeat: no-repeat;
     margin: 0px;
     position: relative;
@@ -339,13 +337,30 @@ header{
 .page{
     position: absolute;
     top: 0px;
-    height: 100%;
+    background: linear-gradient(var(--sixtypercgrad),var(--sixtyperc));
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 5%;
 }
+
+.homepage{
+    height: 1500px;
+}
+
+.historypage{
+    height: 3000px;
+}
+
+.infopage{
+    height: 3000px;
+}
+
+.gamepage{
+    height: 3000px;
+}
+
 
 .textbox{
     position: absolute;
@@ -367,7 +382,12 @@ header{
 }
 
 #opening-times{
-    bottom: 30%;
+    bottom: 25%;
+}
+
+#contact{
+    bottom: 0%;
+    height: 5%;
 }
 
 /* End page properties*/
@@ -379,8 +399,23 @@ footer{
     width: 100vw;
     background: var(--sixtyperc);
     height: 20vh;
-    top: 3000px;
     transition: background 0.5s;
+}
+
+.homepagefooter{
+    top: 1500px;
+}
+
+.historypagefooter{
+    top: 3000px;
+}
+
+.infopagefooter{
+    top: 3000px;
+}
+
+.gamepagefooter{
+    top: 3000px;
 }
 
 .sideoverlay{
