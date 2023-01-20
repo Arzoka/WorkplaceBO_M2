@@ -382,12 +382,12 @@ header{
 }
 
 .container{
-    position: absolute;
+    position: relative;
     justify-content: center;
     display: flex;
     align-items: center;
     top: 7.5%;
-    width: 80%;
+    width: 60%;
     height: 90vh;
 }
   
@@ -401,11 +401,11 @@ header{
 }
   
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
-    color: #FFFFFF;
+    color: var(--thirtyperc);
 }
   
 .swiper .swiper-pagination-bullet-active{
-    background: #FFFFFF;
+    background: var(--thirtyperc);
 }
 
 #opening-times{
