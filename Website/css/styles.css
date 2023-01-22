@@ -354,7 +354,7 @@ header{
 }
 
 .infopage{
-    height: 3000px;
+    height: 1700px;
 }
 
 .gamepage{
@@ -408,15 +408,21 @@ header{
 }
 
 #info-text-box-1{
-    left: 2%;
-    top: 3%;
+    left: 4%;
+    top: 7%;
     background: rgb(190, 140, 209);
 }
 
 #info-text-box-2{
-    right: 2%;
-    top: 10%;
-    background: rgb(115, 131, 192);
+    right: 4%;
+    top: 33%;
+    background: rgb(59, 131, 126);
+}
+
+#info-text-box-3{
+    left: 4%;
+    top: 59%;
+    background: rgb(120, 52, 192);
 }
 
 .container{
@@ -476,7 +482,7 @@ footer{
 }
 
 .infopagefooter{
-    top: 3000px;
+    top: 1700px;
 }
 
 .gamepagefooter{
