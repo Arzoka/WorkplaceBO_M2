@@ -361,6 +361,32 @@ header{
     height: 3000px;
 }
 
+.info-text-box {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.info-text-box-center{
+    height: 100%;
+    width: 80%;
+}
+
+.info-text-box-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.info-text-box-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
 
 .textbox{
     position: absolute;
@@ -379,6 +405,18 @@ header{
     font-family: "Open Sans", sans-serif;
     font-size: 34px;
     color: var(--thirtyperc);
+}
+
+#info-text-box-1{
+    left: 2%;
+    top: 3%;
+    background: rgb(190, 140, 209);
+}
+
+#info-text-box-2{
+    right: 2%;
+    top: 10%;
+    background: rgb(115, 131, 192);
 }
 
 .container{
@@ -650,9 +688,4 @@ footer{
 
 @media only screen and (max-width: 600px) {
 
-}
-
-.boxed {
-    background: rgb(190, 140, 209) ;
-    height: 20%;
 }
