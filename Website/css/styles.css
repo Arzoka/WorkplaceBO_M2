@@ -651,3 +651,8 @@ footer{
 @media only screen and (max-width: 600px) {
 
 }
+
+.boxed {
+    background: rgb(190, 140, 209) ;
+    height: 20%;
+}
