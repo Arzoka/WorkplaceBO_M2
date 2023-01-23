@@ -13,7 +13,7 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 24/12/2022:
 - Started work on local repository RevampBOTest
 
-12/25/2022:
+25/12/2022:
 - File setup and loading screen
 
 26/12/2022:
