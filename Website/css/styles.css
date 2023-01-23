@@ -53,6 +53,7 @@ body{
     position: fixed;
     width: 100%;
     height: 70%;
+    z-index: 68;
     transition: top 1s, opacity 1s;
 }
 
@@ -150,7 +151,7 @@ body{
 header{
     position: fixed;
     display: flex;
-    z-index: 69;
+    z-index: 70;
     top: 0;
     background: var(--sixtyperc);
     width: 100vw;
@@ -362,12 +363,14 @@ header{
 }
 
 .info-text-box {
+    z-index: 69;
     position: absolute;
     width: 40%;
     height: auto;
     justify-content: center;
     align-items: center;
     display: flex;
+    border-radius: 5px;
 }
 
 .info-text-box-center{
@@ -473,6 +476,7 @@ header{
 /*Footer*/
 
 footer{
+    z-index: 70;
     position: absolute;
     width: 100vw;
     background: var(--sixtyperc);
