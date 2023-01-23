@@ -71,7 +71,7 @@ Workplace for museum online BO assignment Period 2. (WorkplaceBO_M2)
 - Renamed default branch "Revamp" to "main"
 
 23/01/2023:
--finished home screen
--finished information
--finished history
--added all english information
+- finished home screen
+- finished information
+- finished history
+- added all english information
