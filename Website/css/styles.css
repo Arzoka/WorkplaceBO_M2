@@ -460,14 +460,14 @@ header{
 
 .hometitle{
     position: relative;
-    top: 17%;
+    top: 10%;
 }
 .container{
     position: relative;
     justify-content: center;
     display: flex;
     align-items: center;
-    top: 7.5%;
+    top: 0%;
     width: 60%;
     height: 90vh;
 }

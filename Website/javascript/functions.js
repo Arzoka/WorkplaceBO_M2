@@ -236,6 +236,7 @@ class Functions{
                 document.getElementById('friday').innerHTML = "Vrijdag: 10.00 - 21.00";
                 document.getElementById('saturday').innerHTML = "Zaterdag: 10.00 - 18.00";
                 document.getElementById('sunday').innerHTML = "Zondag: 12.00 - 18.00";
+                document.getElementById('hometitle').innerHTML = "Ons museum!"
             }
             else if (window.location.href.includes("information.html")) {
                 document.getElementById('itbt-1').innerHTML = "Zodra je binnenkomt in het museum, word je overgoten door alles wat de game cultuur zo mooi en indrukwekkend maakt. <br> Volg onze tijdlijn door de sfeerkamers en ontdek de geschiedenis van videogames aan de hand van de gamechangers, hoogtepunten en belangrijke momenten in techniek, artwork en cultuur binnen de game industrie. <br> <br> <br>"
@@ -271,6 +272,7 @@ class Functions{
                 document.getElementById('friday').innerHTML = "Friday: 10.00 - 21.00";
                 document.getElementById('saturday').innerHTML = "Saturday: 10.00 - 18.00";
                 document.getElementById('sunday').innerHTML = "Sunday: 12.00 - 18.00";
+                document.getElementById('hometitle').innerHTML = "Our museum!"
             }
             else if (window.location.href.includes("information.html")) {
                 document.getElementById('itbt-1').innerHTML = "As soon as you walk into the museum, you will be blown away by everything that makes game culture so beautiful and impressive. <br>Follow our timeline though the atmosphere rooms and discover the history of video games through the game changers, <br>highlights and important moments in technology, artwork and culture within the game industry. <br>the classics, meet icons and discover the lost treasures of videogames. <br>The museum has around 231 game computers, home computers and arcade cabinets ready to be played, and 327 unique play areas. <br>That makes us the museum with the largest arcade in all of Europe! <br> <br> <br>"
@@ -306,6 +308,7 @@ class Functions{
                 document.getElementById('friday').innerHTML = "Friday: 10.00 - 21.00";
                 document.getElementById('saturday').innerHTML = "Saturday: 10.00 - 18.00";
                 document.getElementById('sunday').innerHTML = "Sunday: 12.00 - 18.00";
+                document.getElementById('hometitle').innerHTML = "Our museum!"
             }
             else if (window.location.href.includes("information.html")) {
                 document.getElementById('itbt-1').innerHTML = "As soon as you walk into the museum, you will be blown away by everything that makes game culture so beautiful and impressive. <br>Follow our timeline though the atmosphere rooms and discover the history of video games through the game changers, <br>highlights and important moments in technology, artwork and culture within the game industry. <br>the classics, meet icons and discover the lost treasures of videogames. <br>The museum has around 231 game computers, home computers and arcade cabinets ready to be played, and 327 unique play areas. <br>That makes us the museum with the largest arcade in all of Europe! <br> <br> <br>"
