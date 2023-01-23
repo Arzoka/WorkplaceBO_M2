@@ -434,6 +434,11 @@ header{
     background: rgb(114, 158, 186);
 }
 
+#info-text-box-5{
+    right: 4%;
+    top: 19%;
+    background: rgb(101, 80, 111);
+}
 
 .container{
     position: relative;
