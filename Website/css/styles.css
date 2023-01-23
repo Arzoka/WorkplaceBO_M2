@@ -359,7 +359,7 @@ header{
 }
 
 .gamepage{
-    height: 3000px;
+    height: 1200px;
 }
 
 .info-text-box {
@@ -498,6 +498,19 @@ header{
     height: 5%;
 }
 
+.dissapointedpng{
+    position: relative;
+    top: 10%;
+}
+
+.dissapointedtext{
+    position: relative;
+    top: 8%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 46px;
+    color: var(--tenperc);
+}
+
 /* End page properties*/
 
 /*Footer*/
@@ -524,7 +537,7 @@ footer{
 }
 
 .gamepagefooter{
-    top: 3000px;
+    top: 1200px;
 }
 
 .sideoverlay{
