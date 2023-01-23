@@ -458,6 +458,10 @@ header{
     background: rgb(131, 58, 226);
 }
 
+.hometitle{
+    position: relative;
+    top: 17%;
+}
 .container{
     position: relative;
     justify-content: center;
