@@ -440,6 +440,12 @@ header{
     background: rgb(101, 80, 111);
 }
 
+#info-text-box-6{
+    left: 4%;
+    top: 39%;
+    background: rgb(71, 117, 84);
+}
+
 .container{
     position: relative;
     justify-content: center;
