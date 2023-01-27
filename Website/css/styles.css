@@ -460,31 +460,31 @@ header{
 
 #info-text-box-9{
     left: 4%;
-    top: 10%;
+    top: 45%;
     background: rgb(40, 173, 255);
 }
 
 #info-text-box-10{
     right: 4%;
-    top: 29%;
+    top: 54%;
     background: rgb(169, 98, 202);
 }
 
 #info-text-box-11{
     left: 4%;
-    top: 49%;
+    top: 62%;
     background: rgb(123, 209, 148);
 }
 
 #info-text-box-12{
     right: 4%;
-    top: 63%;
+    top: 70%;
     background: rgb(79, 129, 244);
 }
 
 #info-text-box-13{
     left: 4%;
-    top: 82%;
+    top: 77%;
     background: rgb(202, 98, 157);
 }
 
@@ -493,6 +493,16 @@ header{
     top: 10%;
 }
 .container{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    top: 0%;
+    width: 60%;
+    height: 90vh;
+}
+
+.container2{
     position: relative;
     justify-content: center;
     display: flex;
