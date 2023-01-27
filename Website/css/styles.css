@@ -490,7 +490,7 @@ header{
 }
 
 #opening-times{
-    bottom: 25%;
+    bottom: 40%;
 }
 
 #contact{
@@ -745,4 +745,48 @@ footer{
 
 @media only screen and (max-width: 600px) {
 
+}
+
+#reviews-1{
+    left: 10%;
+    top: 82.5%;
+    background: rgb(190, 140, 209);
+}
+
+#reviews-2{
+    left: 53%;
+    top: 70%;
+    background: rgb(123, 150, 188);
+}
+
+#reviews-3{
+    left: 53%;
+    top: 82.5%;
+    background: rgb(146, 209, 140);
+}
+
+.reviews {
+    z-index: 69;
+    position: absolute;
+    width:38%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.reviews-textbox-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.textbox-title2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 150px;
+    color: var(--thirtyperc);
+    position: absolute;
+    left:10%;
+    top: 68%;
 }
