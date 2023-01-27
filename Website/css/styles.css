@@ -359,7 +359,7 @@ header{
 }
 
 .gamepage{
-    height: 1200px;
+    height: 3000px;
 }
 
 .info-text-box {
@@ -460,31 +460,31 @@ header{
 
 #info-text-box-9{
     left: 4%;
-    top: 4%;
+    top: 10%;
     background: rgb(40, 173, 255);
 }
 
 #info-text-box-10{
     right: 4%;
-    top: 19%;
+    top: 29%;
     background: rgb(169, 98, 202);
 }
 
 #info-text-box-11{
     left: 4%;
-    top: 39%;
+    top: 49%;
     background: rgb(123, 209, 148);
 }
 
 #info-text-box-12{
     right: 4%;
-    top: 53%;
+    top: 63%;
     background: rgb(79, 129, 244);
 }
 
 #info-text-box-13{
     left: 4%;
-    top: 62%;
+    top: 82%;
     background: rgb(202, 98, 157);
 }
 
@@ -567,7 +567,7 @@ footer{
 }
 
 .gamepagefooter{
-    top: 1200px;
+    top: 3000px;
 }
 
 .sideoverlay{
