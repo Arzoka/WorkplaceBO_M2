@@ -502,12 +502,17 @@ header{
     height: 90vh;
 }
 
+.hometitle2{
+    position: relative;
+    top: 5%;
+}
+
 .container2{
     position: relative;
     justify-content: center;
     display: flex;
     align-items: center;
-    top: 0%;
+    top: 6%;
     width: 60%;
     height: 90vh;
 }
