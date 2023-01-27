@@ -458,6 +458,36 @@ header{
     background: rgb(131, 58, 226);
 }
 
+#info-text-box-9{
+    left: 4%;
+    top: 4%;
+    background: rgb(40, 173, 255);
+}
+
+#info-text-box-10{
+    right: 4%;
+    top: 19%;
+    background: rgb(169, 98, 202);
+}
+
+#info-text-box-11{
+    left: 4%;
+    top: 39%;
+    background: rgb(123, 209, 148);
+}
+
+#info-text-box-12{
+    right: 4%;
+    top: 53%;
+    background: rgb(79, 129, 244);
+}
+
+#info-text-box-13{
+    left: 4%;
+    top: 62%;
+    background: rgb(202, 98, 157);
+}
+
 .hometitle{
     position: relative;
     top: 10%;
