@@ -8,7 +8,6 @@
     --sixtyperc: #1f182e;
     --sixtypercgrad: #1f182e;
     --thirtyperc: #fb95ff;
-    --searchbar: #fb95ff;
     --tenperc: #FFFFFF;
     --themecolor: #FFFFFF;
     --logo: url('../img/logo.png');
@@ -199,7 +198,7 @@ header{
 
 .button-line{
     position: absolute;
-    width: 30%;
+    width: 0%;
     height: 3%;
     bottom: 5%;
     left: 50%;
@@ -223,40 +222,6 @@ header{
     top: 10%;
     color: var(--tenperc);
     transition: color 0.2s;
-}
-
-#s-bar{
-    overflow: hidden;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    position:relative;
-    top: 50%;
-    right: 5%;
-    width: 20%;
-    height: 35%;
-    background: white;
-    border-radius: 25px;
-    border: 2px solid var(--searchbar);
-    transition: width 0.5s, top 0.5s, filter 0.5s;
-    transform: translateY(-50%);
-}
-  
-#search-input{
-    overflow: hidden;
-    outline: none;
-    border: none;
-    width: 95%;
-    height:100%;
-}
-  
-#s-icon{
-    opacity: 1;
-    position: absolute;
-    right:5%;
-    object-fit: contain;
-    height: 80%;
-    transition: opacity 0.5s;
 }
 
 #toggle-theme{
@@ -285,6 +250,7 @@ header{
 }
 
 #tickets{
+    cursor: pointer;
     position: relative;
     top: 50%;
     right: 1%;
@@ -358,8 +324,12 @@ header{
     height: 1700px;
 }
 
-.gamepage{
+.highlightspage{
     height: 3000px;
+}
+
+.gamepage{
+    height: 1700px;
 }
 
 .info-text-box {
@@ -581,8 +551,12 @@ footer{
     top: 1700px;
 }
 
-.gamepagefooter{
+.highlightspagefooter{
     top: 3000px;
+}
+
+.gamepagefooter{
+    top: 1700px;
 }
 
 .sideoverlay{

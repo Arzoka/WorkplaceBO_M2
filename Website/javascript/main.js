@@ -23,9 +23,17 @@ window.onload = function() {
         functions.SwitchPage("history");
     });
 
+    document.getElementById('highlights-button').addEventListener('click', () => {
+        functions.SwitchPage("highlights");
+    });
+
     document.getElementById('game-button').addEventListener('click', () => {
         functions.SwitchPage("game");
     });
+
+    document.getElementById('tickets').addEventListener('click', () => {
+        window.location.replace("https://www.nationaalvideogamemuseum.nl/tickets");
+    })
 
     
 

@@ -72,7 +72,6 @@ class Functions{
             r.style.setProperty('--logo',"url('../img/logo.png')");
             r.style.setProperty('--tickets',"url('../img/ticket.png')");
             r.style.setProperty('--themecolor',"#FFFFFF");
-            r.style.setProperty('--searchbar','#FFFFFF');
             document.getElementById('t-overlay').style.height = "95%";
             document.getElementById('t-overlay').style.width = "95%";
         }
@@ -85,7 +84,6 @@ class Functions{
             r.style.setProperty('--logo',"url('../img/logodark.png')");
             r.style.setProperty('--tickets',"url('../img/ticketdark.png')");
             r.style.setProperty('--themecolor',"#ffe99a");
-            r.style.setProperty('--searchbar','#fb95ff');
             document.getElementById('t-overlay').style.height = "0%";
             document.getElementById('t-overlay').style.width = "0%";
         }
@@ -142,6 +140,13 @@ class Functions{
             } else{
                 document.getElementById('title').innerHTML = "History";
             }  
+        } else if (window.location.href.includes("highlights.html")) {
+            document.getElementById('highlights-b-line').style.width = "80%";
+            if (localStorage.getItem("language") == "dutch") {
+                document.getElementById('title').innerHTML = "Highlights";
+            } else{
+                document.getElementById('title').innerHTML = "Highlights";
+            } 
         } else if (window.location.href.includes("game.html")) {
             document.getElementById('game-b-line').style.width = "80%";
             if (localStorage.getItem("language") == "dutch") {
@@ -163,6 +168,9 @@ class Functions{
         }
         else if (page == "history") {
             window.location.replace("history.html");
+        }
+        else if (page == "highlights") {
+            window.location.replace("highlights.html");
         }
         else if (page == "game") {
             window.location.replace("game.html");
@@ -220,7 +228,6 @@ class Functions{
     //Check the language variable to change the websites language if needed
     CheckLanguage() {
         if (localStorage.getItem("language") == "dutch") {
-            document.getElementById('search-input').placeholder = "Zoeken..";
             document.getElementById('dutch-button').style.boxShadow = "0px 0px 10px var(--thirtyperc)";
             document.getElementById('english-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
@@ -256,7 +263,6 @@ class Functions{
             }
         }
         else if (localStorage.getItem("language") == "english") {
-            document.getElementById('search-input').placeholder = "Search..";
             document.getElementById('english-button').style.boxShadow = "0px 0px 10px var(--thirtyperc)";
             document.getElementById('dutch-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
@@ -292,7 +298,6 @@ class Functions{
             }
         }
         else{
-            document.getElementById('search-input').placeholder = "Search..";
             document.getElementById('english-button').style.boxShadow = "0px 0px 10px var(--thirtyperc)";
             document.getElementById('dutch-button').style.boxShadow = "";
             document.getElementById('home-t').innerHTML = "Home";
@@ -357,46 +362,8 @@ class Functions{
         }
     }
 
-    //Searchbar input check
-    checkInputFocus() {
-        //Variables
-        var s_input = document.getElementById("search-input");
-        var s_icon = document.getElementById("s-icon");
-        var s_bar = document.getElementById("s-bar");
-    
-        if (document.activeElement == s_input){ //If input is focus
-          s_bar.style.width = "20%";
-          //s_bar.style.filter = "drop-shadow(0px -3px 5px #FFFFFF) drop-shadow(0px 3px 5px #FFFFFF)";
-          //s_bar.style.top = "-10%";
-    
-          if (s_input && s_input.value) { //If it exists and if it has letter(s) in it
-            s_icon.style.opacity = 0; //Invisible
-          }
-    
-          else {
-            s_icon.style.opacity = 1; //Visible
-          }
-          
-        }
-    
-        else {
-          //s_bar.style.filter = "drop-shadow(0px 0px 0px";
-          s_bar.style.width = "12.5%";
-          //s_bar.style.top = "0";  
-          
-          if (s_input && s_input.value) { //If it exists and if it has letter(s) in it
-            s_icon.style.opacity = 0; //Invisible
-          }
-          else{
-            s_icon.style.opacity = 1; //Visible
-          }
-    
-        }
-      }
-
     //Huge bundle of things to do during SetInterval in main.js (set to every 10 ms)
     Interval() {
-        functions.checkInputFocus();
         functions.ChangeGhost();
         functions.CheckTheme();
         functions.elementsOverlap(document.getElementById('d1'),document.getElementById('pacman'));

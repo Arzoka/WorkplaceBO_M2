@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Files-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="module" src="../javascript/main.js" defer></script>
+
+    <!--title of website shown in tab-->
+    <title id="title">Highlights</title>
+
+    <!--places the search icon in the tab-->
+    <link rel="icon"  href="../img/icon.png" type="image/x icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+
+<body>
+    
+    <!--Loading screen-->
+
+    <div id="loadscreen">
+        <div id="dots">
+            <div class="dot" id="dot1"></div>
+            <div class="dot" id="dot2"></div>
+            <div class="dot" id="dot3"></div>
+        </div>
+        <h2 id="loadtext"> This site is purely for educational purposes and has no official connection to Nationaal Videogame Museum.</h2>
+        <div id="loadbar">
+            <div id="progress"></div>
+        </div>
+    </div>
+
+    <!--End Loading screen-->
+
+
+    
+    <!--Top bar-->
+
+    <header>
+        <div id="topbarborder"></div>
+
+        <div id="vgm-logo"></div>
+        <div class="buttons">
+
+            <div class="home gotobutton" id="home-button">
+                <div class="button-line" id="home-b-line"></div>
+                <h2 id="home-t" class="button-text prevent-select">Home</h2>
+            </div>
+
+            <div class="information gotobutton" id="info-button">
+                <div class="button-line" id="info-b-line"></div>
+                <h2 id="information-t" class="button-text prevent-select">Information</h2>
+            </div>
+
+            <div class="history gotobutton" id="history-button">
+                <div class="button-line" id="history-b-line"></div>
+                <h2 id="history-t" class="button-text prevent-select">History</h2>
+            </div>
+
+            <div class="highlights gotobutton" id="highlights-button">
+                <div class="button-line" id="highlights-b-line"></div>
+                <h2 id="highlights-t" class="button-text prevent-select">Highlights</h2>
+            </div>
+
+            <div class="game gotobutton" id="game-button">
+                <div class="button-line" id="game-b-line"></div>
+                <h2 id="game-t" class="button-text prevent-select">Game</h2>
+            </div>
+
+        </div>
+        
+        <div class="languages">
+            <div class="english languagebutton" id="english-button"></div>
+            <div class="dutch languagebutton" id="dutch-button"></div>
+        </div>
+
+        <div id="tickets"></div>
+        
+        <div id="toggle-theme">
+            <div id="t-overlay"></div>
+        </div>
+    </header>
+
+    <!--End Top bar-->
+
+
+
+    <!--Page-->
+
+    <div class="page highlightspage" id="page">
+        <h2 class="textbox-title hometitle2" id="hometitle2">Highlights!</h2>
+        <div class="container2">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="../img/Museum_Image5.png"></div>
+                  <div class="swiper-slide"><img src="../img/Museum_Image6.png"></div>
+                  <div class="swiper-slide"><img src="../img/Museum_Image7.png"></div>
+                  <div class="swiper-slide"><img src="../img/Museum_Image8.jpg"></div>
+                  <div class="swiper-slide"><img src="../img/Museum_Image9.jpg"></div>
+                
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                
+              </div>
+        </div>
+        
+            <div class="info-text-box" id="info-text-box-9">
+                <div class="info-text-box-center">
+                    <br>
+                    <br>
+                    <h2 class="info-text-box-title" id="history-title">Music games</h2> 
+                    <br>
+                    <p class="info-text-box-text" id="itbt-9"> In the arcade you can find a bunch of different music games. Dancing games, guitar games, you name it! 
+                    <br>We have games like:
+                        <br>• Guitar Hero
+                        <br>• Dance Dance Revolution
+                        <br>• FutureTomTom, and more!
+                    <br>If you like music or like to test your speed, you should try out our rythm games!
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+    
+            <div class="info-text-box" id="info-text-box-10">
+                <div class="info-text-box-center">
+                    <br>
+                    <br>
+                    <h2 class="info-text-box-title">Horror games</h2>
+                    <br>
+                    <p class="info-text-box-text" id="itbt-10"> Good news for all the horror fans out there: we have scary games!
+                    <br>Want to shoot some undead zombies with a friend? Come check out House Of The Dead!
+                    <br>Though there's only a few horror games in our arcade, you're bound to love them.
+                    <br>
+                    <br>
+                    <br>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="info-text-box" id="info-text-box-11">
+                <div class="info-text-box-center">
+                    <br>
+                    <br>
+                    <h2 class="info-text-box-title">Wii games</h2>
+                    <br>
+                    <p class="info-text-box-text" id="itbt-11"> Do you remember when you were a kid and you'd play games on your Wii with your siblings or your friends?
+                    <br>Well, now you can do it in our arcade too!
+                    <br>Come relive your childhood and play your favorite games with your friends!
+                    <br>
+                    <br>
+                    <br>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="info-text-box" id="info-text-box-12">
+                <div class="info-text-box-center">
+                    <br>
+                    <br>
+                    <h2 class="info-text-box-title">Fighting games</h2>
+                    <br>
+                    <p class="info-text-box-text" id="itbt-12"> Do you like violence? Not in real life, of course. But playing against your friends on one of our fighting boxes is a good alternative!
+                    <br>Play games like:
+                        <br>• Mortal Kombat II
+                        <br>• Killer Instict, and others!
+                    <br>And if you'd rather fight alongside your friends, we've got games like Terminator Salvation you can try out!
+                    <br>
+                    <br>
+                    <br>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="info-text-box" id="info-text-box-13">
+                <div class="info-text-box-center">
+                    <br>
+                    <br>
+                    <h2 class="info-text-box-title">Racing games</h2>
+                    <br>
+                    <p class="info-text-box-text" id="itbt-13"> Fan of racing games? Me too!
+                    <br>Come play against your friends and see who's the fastest!
+                    <br>Or maybe you want to race for a highscore on one of our boxes. Well, you can do that too!
+                    <br>Have fun winning races!
+                    <br>
+                    <br>
+                    <br>
+                    </p>
+                </div>
+            </div>
+    
+
+        <footer class="highlightspagefooter">
+            
+            <div id="BottomSecTopBar"></div>
+
+            <!--Pacman animation-->
+            <figure id="PacmanArea">
+                <div class="PacmanDot d1" id="d1"></div>
+                <div class="PacmanDot d2" id="d2"></div>
+                <div class="PacmanDot d3" id="d3"></div>
+                <div class="PacmanDot d4" id="d4"></div>
+                <div class="PacmanDot d5" id="d5"></div>
+                <div class="PacmanDot d6" id="d6"></div>
+                <div class="PacmanDot d7" id="d7"></div>
+                <div class="PacmanDot d8" id="d8"></div>
+                <div class="PacmanDot d9" id="d9"></div>
+                <div class="PacmanDot d10" id="d10"></div>
+                <div class="PacmanObj" id="ghost"></div>
+                <div class="PacmanObj" id="pacman"></div>
+                <div class="leftso sideoverlay"></div>
+                <div class="rightso sideoverlay"></div>
+            </figure>
+            <!--End pacman animation-->
+            
+        </footer>
+        <!--Bottom section-->
+
+    </div>
+
+    <!--End Page-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
