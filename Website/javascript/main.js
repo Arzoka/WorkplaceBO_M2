@@ -78,7 +78,7 @@ window.onload = function() {
     setCookie("visited", "yes", null);
     }
 }
-if (window.location.href.includes("home.html") || window.location.href.includes("game.html")) {
+if (window.location.href.includes("home.html") || window.location.href.includes("highlights.html")) {
     const swiper = new Swiper('.swiper', {
         autoplay: {
             delay: 3000,
