@@ -46,7 +46,7 @@ body{
     transition: background 0.5s;
 }
 
-.scene, canvas {
+.scene {
     opacity: var(--canvop);
     top: var(--canvtop);
     position: fixed;
